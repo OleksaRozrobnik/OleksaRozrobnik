@@ -1,0 +1,131 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+html{
+    box-sizing: border-box;
+}
+*{
+    box-sizing: inherit;
+}
+a{
+    text-decoration: none;
+} 
+ul, li{
+    list-style: none;
+    padding: 0;
+    display: inline;
+} 
+.conteiner{
+max-width: 1020px;
+padding: 0 10px;
+margin: 0 auto;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+.content{
+flex: 1 0 auto;
+background-image: url(..//images/bg.jpg);
+background-size: cover;
+background-position: center;
+}
+.content.content-mp{
+background-image: none;
+background-color: #ccc;
+}
+.header{
+    height: 100px;
+    color: #fff;
+background-color: rgb(58, 58, 58);
+    padding-top: 15px;
+}
+
+.header_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header_inner img{
+  width: 60px;
+  /* border: 1px solid #fff;   */
+}
+.name{
+    font-family: 'Nunito', sans-serif;
+    font-size: 60px;
+}
+li{
+    padding: 0 10px;
+}
+li a{
+color: #fff;
+font-size: 16px;
+font-family: Verdana, Tahoma, sans-serif;
+font-weight: 400;
+}
+.active{
+    font-weight: 700;
+}
+h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+}
+h3{
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.misto__img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.misto_img img{
+    height: 300px;
+}
+.people__img{
+    text-align: center;
+}
+.people__img img{
+    border-radius: 15%;
+    border: 3px solid rgb(58, 58, 58);
+}
+article{
+    background-color: #fff;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    padding: 30px 15px;
+}
+p{
+    font-size: 12px;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: 400;
+    color: rgb(58, 58, 58);
+    text-align: justify;
+}
+.footer{
+flex: 0 0 auto;
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 100px;
+color: #fff;
+background-color: rgb(58, 58, 58);
+}
+.footer span{
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+}
+.footer span a{
+    font-weight: 700px;
+    color: #bff;
+}
